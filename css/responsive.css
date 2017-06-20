@@ -1,0 +1,213 @@
+/* ================================
+  Media Queries
+================================ */
+* {
+  box-sizing: border-box;
+}
+
+@media screen and (max-width:768px) {
+  #bottom-medium-large {
+    display: none;
+  }
+
+}
+
+
+
+
+@media screen and (min-width:768px) {
+
+
+
+  .main-navigation li{
+    background:none;
+    display:inline;
+    margin: 0 auto;
+    text-align: center;
+    padding: 1em;
+  }
+
+  .picture {
+    float:right;
+    margin: 0 auto;
+  }
+
+   .content {
+    width: 50%;
+    text-align: left;
+    margin: 0 auto;
+    float: left;
+  }
+
+  .portfolio-section {
+    margin: 0 auto;
+    list-style: none;
+    max-width: 100%;
+
+  }
+
+
+
+  .portfolio-section li {
+    float:left;
+    width: 50%;
+    margin: 0 auto;
+    padding: 1em;
+
+  }
+  
+  .skills li {
+    border-radius: 10px;
+    display: inline;
+    background: lightgreen;
+    color: darkslategray;
+    padding: 15px 40px;
+    margin: 30px;
+}
+  
+  .card h2 {
+    padding: 5px;
+    margin-bottom: 30px; 
+    
+  }
+
+  .contact-section {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .bottom-nav li {
+    display: none;
+  }
+
+
+  .bottom-nav-med {
+    float:right;
+  }
+  .bottom-nav-med li{
+    display: inline;
+    background: none;
+    margin-left: 1em;
+  }
+
+
+
+
+
+
+
+  .b-hunter {
+    float:left;
+    margin: 0 auto;
+
+  }
+
+  #bottom-medium-large {
+    width:95%;
+    margin:0 auto;
+    padding-bottom: 2em;
+
+  }
+
+  .contact-info {
+    padding-top:1em;
+  }
+
+
+ }
+
+
+@media screen and (min-width: 1024px) {
+
+ .main-header {
+    width: 95%;
+    margin: 2em auto 3em;
+    padding:.5em;
+
+  }
+
+  .main-navigation li {
+    display: inline;
+    background: none;
+  }
+
+  .main-navigation {
+    float:right;
+    margin:0 -1.5em 0 0;
+
+  }
+
+  .hunter {
+    float: left;
+    margin:0 auto;
+  }
+
+  .main-nav {
+    width:95%;
+    margin:0 auto;
+    display: inline;
+  }
+
+
+
+
+
+
+  .about-me {
+    margin:0 auto;
+    font-size: 2em;
+    
+
+  }
+  
+  
+
+  .about-me img {
+    margin-right:.5em;
+  }
+
+  .portfolio-section {
+    width:95%;
+    margin: 0 auto;
+
+  }
+
+  .picture {
+    float:right;
+    margin: 0 auto;
+    width: 40%;
+  }
+
+  .content {
+    width: 50%;
+    text-align: left;
+    margin: 0 auto;
+    float: left;
+  }
+  
+
+
+
+  .portfolio-section li {
+    float: left;
+    width: 33.3333%;
+    padding-left: 1em;
+    padding-right: 1em;
+
+
+}
+
+  
+
+  .contact-section {
+    width: 60%;
+    margin: 0 auto;
+    padding:.5em;
+  }
+
+
+
+
+
+
+}

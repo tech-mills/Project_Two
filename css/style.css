@@ -1,0 +1,226 @@
+/* ================================
+  Base Style
+================================ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Fjalla One', sans-serif;
+  /*font-family: 'Playfair Display', serif;*/
+  line-height: 1.6em;
+  color: #838181;
+  background-color: #ebebeb;
+  width: 100%;
+}
+
+h1 {
+  color: #0e0202;
+  font-size: 2em;
+}
+
+h2,
+a  {
+  color: #454444;
+  text-decoration: none;
+  text-align: center;
+}
+
+p {
+font-family: 'Playfair Display', serif;
+font-size: 1rem;
+padding: 0 1.25em 0 1.25em;
+line-height: 24px;  
+}
+
+
+
+img {
+  max-width: 100%;
+    height: auto;
+  
+} 
+
+.port { 
+  transition: all .2s ease-in-out; 
+}
+.port:hover { 
+  transform: scale(1.1); 
+}
+
+.picture {
+  border-radius: 15% 4% 15% 4%;
+}
+
+
+a:hover {
+  color: firebrick;
+}
+
+.portfolio-section {
+  margin: 0 auto;
+  list-style: none;
+  background: aliceblue;
+  max-width: 100%;
+  padding-top: 1.25em;
+  padding-bottom: 1.25em;
+  
+  
+}
+
+
+
+.portfolio-section li {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 100%;
+  width: 90%;
+  
+  
+}
+
+/* ================================
+  Base Layout Style
+================================ */
+
+/* ------Navigation------------- */
+
+.main-header {
+  margin: 0 auto;
+  padding: 1em;
+  list-style: none;
+  max-width: 100%;
+  text-align: center;
+  
+}
+
+.main-nav h1 {
+  font-size: 24px;
+  font-family: 'Fjalla One', sans-serif;
+}
+
+.main-nav li {
+  background-color: aliceblue;
+  margin: .5em auto;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 20px;
+  color: black;
+  width: 100%;
+  padding: .5em;
+    
+}
+
+
+
+
+  
+
+
+
+
+
+/* ------Other------------- */
+
+.about-me {
+  max-width: 100%;
+  padding: 25px 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
+
+/* ------Layout Containers------ */
+
+.port-sections li {
+  padding-bottom: 1.5em;
+  
+}
+
+.contact {
+  text-align: center;
+  margin: 0 auto;
+  padding: 2em;
+  
+  
+}
+
+.contact-info {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact-info li {
+  padding: .5em;
+  margin-bottom: 10px
+  
+}
+
+.card {
+  margin:0 auto;
+  padding: 20px 40px 40px;
+  text-align: left;
+  background: #eaeaeb;
+
+}
+
+
+ul.skills {
+  padding: 0;
+  text-align: center;
+}
+
+.skills li {
+  border-radius: 10px;
+  display: inline-block;
+  background: lightgreen;
+  color: darkslategray;
+  padding: 5px 20px;
+  margin: 0 auto 5px;
+  width:100%;
+    
+}
+
+.skills li:nth-child(odd) {
+  background: lightblue;
+}
+
+
+
+
+.bottom-nav {
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+  color: black;
+  padding-top: 1.5em;
+  border-top: 2px solid lightgrey;
+}
+
+.name {
+  float: left;
+  font-weight: bold;
+  
+}
+
+.back {
+  float: right;
+  font-weight: bold;
+  
+}
+
+.group::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+   
+
+
+
+
+
